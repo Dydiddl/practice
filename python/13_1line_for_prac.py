@@ -8,3 +8,7 @@ print(students)
 students = ["Iron man", "Thor", "I am groot"]
 students = [len(i) for i in students]
 print(students)
+
+# 학생 이름을 대문자로 변환
+students = ["Iron man", "Thor", "I am groot"]
+students = [i.upper for i in students]
