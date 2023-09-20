@@ -67,8 +67,4 @@ print(randrange(1, 46)) # 1 ~ 46미만의 값을 생성 - 로또 번호
 print(randint(1, 45)) # 1과 45를 포함하는 번호 생성
 
 
-# 퀴즈 2
-from random import *
-on = None
-off = randint(4, 28)
-print("오프라인 스터디 모임 날짜는 매월" + str(off) +"일로 선정되었습니다.")
+
