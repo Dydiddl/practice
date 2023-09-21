@@ -13,3 +13,4 @@ def checkpoint_return(gun, soldier):
 print("전체 총 : {0}".format(gun))
 gun = checkpoint_return(gun, 2)
 print("남은 총 : {0}".format(gun))
+
