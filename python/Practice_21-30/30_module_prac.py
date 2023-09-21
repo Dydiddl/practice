@@ -18,5 +18,5 @@
 # price_morning(4)
 # price_soldier(5) <- 쓸수 없음
 
-from theater_module_prac import price_soldier as price
+from theater_module_prac import price_soldier as price # 군인 값만 불러와서 단축키로 불러올 수 있음
 price(3)
